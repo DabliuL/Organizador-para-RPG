@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <title>Organizador para RPG</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/009/385/437/non_2x/casino-dice-clipart-design-illustration-free-png.png">
+</head>
+<body>
+    <div class="row">
+        <div class="square" id="0">
+            <div class="btn-container">
+                <div class="btn move-left" onclick="moveSquare(this)">←</div>
+                <div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>
+                <div class="btn move-right" onclick="moveSquare(this)">→</div>
+            </div>
+            <div class="square-name" onclick="editSquare(this)">Gunter</div>
+            <div class="square-life" onclick="editLife(this)">15</div>
+            <div class="square-point" onclick="editPoint(this)">15</div>
+        </div>
+        <div class="square" id="1">
+            <div class="btn-container">
+                <div class="btn move-left" onclick="moveSquare(this)">←</div>
+                <div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>
+                <div class="btn move-right" onclick="moveSquare(this)">→</div>
+            </div>
+            <div class="square-name" onclick="editSquare(this)">Shubary</div>
+            <div class="square-life" onclick="editLife(this)">20</div>
+            <div class="square-point" onclick="editPoint(this)">10</div>
+        </div>
+        <div class="square" id="2">
+            <div class="btn-container">
+                <div class="btn move-left" onclick="moveSquare(this)">←</div>
+                <div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>
+                <div class="btn move-right" onclick="moveSquare(this)">→</div>
+            </div>
+            <div class="square-name" onclick="editSquare(this)">Illien</div>
+            <div class="square-life" onclick="editLife(this)">10</div>
+            <div class="square-point" onclick="editPoint(this)">20</div>
+        </div>
+        <!-- Repita para mais quadrados -->
+    </div>
+
+    <button class="addsquare" onclick="addSquare()">Adicionar Quadrado</button>
+    <button class="addboss" onclick="addBoss()"> ? </button>
+
+    <!-- Imagem do dado e resultado -->
+    <div class="dice-container">
+        <h1 class="roll-dice" onclick="rollDice()"><img id="dice" src="https://static.vecteezy.com/system/resources/previews/009/385/437/non_2x/casino-dice-clipart-design-illustration-free-png.png" alt="Dado"></h1>
+        <div id="dice-result"> </div>
+    </div>
+
+    <div class="d3d6-container">
+        <h1 class="roll-3d6" onclick="roll3d6()"><img id="d3d6" src="https://styles.redditmedia.com/t5_2wkux/styles/communityIcon_dvslot0nszk61.png" alt="Dado"></h1>
+        <div id="d3d6-result"> </div>
+    </div>
+
+    <div class="d20-container">
+        <h1 class="roll-d20" onclick="rollD20()"><img id="d20" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Twenty_sided_dice.png" alt="Dado"></h1>
+        <div id="d20-result"> </div>
+    </div>
+
+    <!-- Fundo escuro -->
+    <img id="fundo" src="https://www.whitescreen.online/image/black-background.png" alt="preto">
+    <!-- Inputs de mudar Nome, Vida e Pontos/Mana -->
+    <div class="inputname-container" id="cname">
+        <input type="text" id="name" class="input-name" placeholder="Novo Nome" aria-label="Name" aria-describedby="basic-addon1">
+        <br>
+        <button type="button" onclick="editSquare2()" class="btnok">Ok</button>
+    </div>
+
+    <div class="inputlife-container" id="clife">
+        <input type="text" id="life" class="input-life" placeholder="Vida Atual" aria-label="Life" aria-describedby="basic-addon1">
+        <br>
+        <button type="button" onclick="editLife2()" class="btnok">Ok</button>
+    </div>
+
+    <div class="inputpoint-container" id="cpoint">
+        <input type="text" id="point" class="input-point" placeholder="Pontos Atuais" aria-label="Point" aria-describedby="basic-addon1">
+        <br>
+        <button type="button" onclick="editPoint2()" class="btnok">Ok</button>
+    </div>
+
+    <script src="js\mainrpg.js"></script>
+</body>
+</html>
