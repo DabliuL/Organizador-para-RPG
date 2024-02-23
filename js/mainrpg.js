@@ -33,7 +33,7 @@ function addBoss() {
                             '<div class="btn move-right" onclick="moveSquare(this)">→</div>' +
 
                         '</div>' +
-                        '<div class="square-name" onclick="editSquare(this)">Huntress</div>' +
+                        '<div class="square-name" onclick="editSquare(this)">A Caçadora</div>' +
                         '<div class="square-life" onclick="editLife(this)">?</div>' +
                         '<div class="square-point" onclick="editPoint(this)">?</div>' +
                     '</div>');
@@ -128,17 +128,76 @@ function editPoint2() {
 }
 
 //rolagens de dados
+var Resultado = window.document.getElementById('dice-result')
+    Resultado.style.left = '51.4%'
+
 function rollDice() {
+    var image = window.document.getElementById('d20menu')
+    image.style.opacity = '0%'
     var diceResult = Math.floor(Math.random() * 6) + 1;
     $('#dice-result').text(diceResult);
+    document.getElementById('rollsd').play();
+    Resultado.style.left = '51.4%'
+    return closeMenu()
 }
 
 function roll3d6() {
+    var image = window.document.getElementById('d20menu')
+    image.style.opacity = '0%'
     var d3d6Result = Math.floor(Math.random() * 15) + 4;
-    $('#d3d6-result').text(d3d6Result);
+    $('#dice-result').text(d3d6Result);
+    document.getElementById('rollsd').play();
+    if (d3d6Result < 10) {
+        Resultado.style.left = '51.4%'
+    }
+    if (d3d6Result >= 10) {
+        Resultado.style.left = '50.7%'
+    }
+    return closeMenu()
 }
 
-function rollD20() {
-    var d20Result = Math.floor(Math.random() * 20) + 1;
-    $('#d20-result').text(d20Result);
+function roll2d6() {
+    var image = window.document.getElementById('d20menu')
+    image.style.opacity = '0%'
+    var d2d6Result = Math.floor(Math.random() * 9) + 3;
+    $('#dice-result').text(d2d6Result);
+    document.getElementById('rollsd').play();
+    if (d2d6Result < 10) {
+        Resultado.style.left = '51.4%'
+    }
+    if (d2d6Result >= 10) {
+        Resultado.style.left = '50.7%'
+    }
+    return closeMenu()
+}
+
+//Menu
+function callMenu() {
+    var menuBox = window.document.getElementById('MenuBox')
+    menuBox.style.top = '80%'
+    menuBox.style.left = '45%'
+    menuBox.style.width = '100px'
+    menuBox.style.height = '35px'
+    menuBox.style.opacity = '100%'
+    var Dicebtn = window.document.getElementById('dicebtn')
+    Dicebtn.style.opacity = '100%'
+    var Dicebtn = window.document.getElementById('dicebtn2')
+    Dicebtn.style.opacity = '100%'
+    var Dicebtn = window.document.getElementById('dicebtn3')
+    Dicebtn.style.opacity = '100%'
+}
+
+function closeMenu() {
+    var menuBox = window.document.getElementById('MenuBox')
+    menuBox.style.top = '90%'
+    menuBox.style.left = '50%'
+    menuBox.style.width = '1px'
+    menuBox.style.height = '1px'
+    menuBox.style.opacity = '0%'
+    var Dicebtn = window.document.getElementById('dicebtn')
+    Dicebtn.style.opacity = '0%'
+    var Dicebtn = window.document.getElementById('dicebtn2')
+    Dicebtn.style.opacity = '0%'
+    var Dicebtn = window.document.getElementById('dicebtn3')
+    Dicebtn.style.opacity = '0%'
 }
