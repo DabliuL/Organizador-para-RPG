@@ -5,7 +5,7 @@ body {
     margin: 0 auto;
     background-color: rgb(41, 41, 41);
     padding: 20px;
-    font-family: cursive, arial;
+    font-family: arial;
     overflow-x: hidden;
     user-select: none;
     outline: none;
