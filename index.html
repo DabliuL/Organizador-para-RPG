@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,10 +44,23 @@
         <!-- Repita para mais quadrados -->
     </div>
 
+    <!-- Menu -->
+    <div class="container" id="MenuBox">
+        <div id="dicebtn" onclick="rollDice()">1d6</div>
+        <div id="dicebtn2" onclick="roll2d6()">2d6</div>
+        <div id="dicebtn3" onclick="roll3d6()">3d6</div>
+    </div>
+    <audio id="rollsd">
+        <source src="audio\dice.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- botões -->
     <button class="addsquare" onclick="addSquare()">Adicionar Quadrado</button>
     <button class="addboss" onclick="addBoss()"> ? </button>
+    <button class="menu" onclick="callMenu()"><div id="dice-result">  </div><img id="d20menu" src="https://cdn-icons-png.flaticon.com/512/6545/6545894.png" alt="Dado"></button>
 
     <!-- Imagem do dado e resultado -->
+    <!--
     <div class="dice-container">
         <h1 class="roll-dice" onclick="rollDice()"><img id="dice" src="https://static.vecteezy.com/system/resources/previews/009/385/437/non_2x/casino-dice-clipart-design-illustration-free-png.png" alt="Dado"></h1>
         <div id="dice-result"> </div>
@@ -62,6 +75,7 @@
         <h1 class="roll-d20" onclick="rollD20()"><img id="d20" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Twenty_sided_dice.png" alt="Dado"></h1>
         <div id="d20-result"> </div>
     </div>
+    -->
 
     <!-- Fundo escuro -->
     <img id="fundo" src="https://www.whitescreen.online/image/black-background.png" alt="preto">
