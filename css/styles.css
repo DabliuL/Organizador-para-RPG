@@ -5,14 +5,10 @@ body {
     margin: 0 auto;
     background-color: rgb(41, 41, 41);
     padding: 20px;
-    font-family: cursive;
+    font-family: cursive, arial;
     overflow-x: hidden;
     user-select: none;
     outline: none;
-}
-
-body {
-    font-family: arial;
 }
 
 /*Barra de scroll do mouse*/
