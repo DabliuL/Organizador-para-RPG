@@ -68,6 +68,15 @@ body {
     background-color: #727272;
 }
 
+#dice-result {
+    color: white;
+    font-size: 2.5em;
+    position: fixed;
+    bottom: 2.9%;
+    left: 51.4%;
+    transition: opacity 0.3s;
+}
+
 .square {
     width: 200px;
     height: 200px;
@@ -221,15 +230,6 @@ body {
     transition: 0.4s
 }
 
-#dice-result {
-    color: white;
-    font-size: 2.5em;
-    position: fixed;
-    bottom: 2.9%;
-    left: 51.4%;
-    transition: opacity 0.3s;
-}
-
 /*3d6*/
 .d3d6-container {
     padding-top: 1em;
@@ -320,6 +320,7 @@ body {
     opacity: 0%;
     transform: translate(-50%, -50%);
     transition: 0.7s;
+    z-index: 3;
 }
 
 .input-name {
@@ -330,12 +331,14 @@ body {
     color: white;
     margin: 10px;
     border-radius: 7px;
+    z-index: 4;
 }
 
 .btnok {
     border-radius: 7px;
     color: white;
     background-color: green;
+    z-index: 4;
 }
 
 .inputlife-container {
@@ -355,6 +358,7 @@ body {
     opacity: 0%;
     transform: translate(-50%, -50%);
     transition: 0.7s;
+    z-index: 3;
 }
 
 .input-life {
@@ -365,6 +369,7 @@ body {
     font-size: large;
     margin: 10px;
     border-radius: 7px;
+    z-index: 4;
 }
 
 .inputpoint-container {
@@ -384,6 +389,7 @@ body {
     opacity: 0%;
     transform: translate(-50%, -50%);
     transition: 0.7s;
+    z-index: 3;
 }
 
 .input-point {
@@ -394,4 +400,5 @@ body {
     font-size: large;
     margin: 10px;
     border-radius: 7px;
+    z-index: 4;
 }
