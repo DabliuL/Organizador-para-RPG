@@ -11,6 +11,10 @@ body {
     outline: none;
 }
 
+body {
+    font-family: arial;
+}
+
 /*Barra de scroll do mouse*/
 ::-webkit-scrollbar {
     width: 10px;
