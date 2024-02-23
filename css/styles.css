@@ -48,6 +48,7 @@ body {
     left: 50.5%;
     transition: 0.3s;
     padding: 5px 37.5px;
+    z-index: 3;
 }
 
 #dicebtn, #dicebtn2, #dicebtn3 {
