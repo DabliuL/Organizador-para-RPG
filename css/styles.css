@@ -78,6 +78,7 @@ body {
     bottom: 2.9%;
     left: 51.4%;
     transition: opacity 0.3s;
+    text-shadow: 1px 1px black;
 }
 
 .square {
