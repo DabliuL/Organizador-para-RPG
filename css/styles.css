@@ -49,6 +49,8 @@ body {
     transition: 0.3s;
     padding: 5px 37.5px;
     z-index: 3;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: ##000000; /* cor da borda */
 }
 
 #dicebtn, #dicebtn2, #dicebtn3 {
