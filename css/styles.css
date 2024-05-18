@@ -49,8 +49,7 @@ body {
     transition: 0.3s;
     padding: 5px 37.5px;
     z-index: 3;
-    -webkit-text-stroke-width: 1px; /* largura da borda */
-    -webkit-text-stroke-color: ##000000; /* cor da borda */
+    stroke: black;
 }
 
 #dicebtn, #dicebtn2, #dicebtn3 {
@@ -61,6 +60,7 @@ body {
     color: white;
     margin: 2px;
     transition: 1s;
+    stroke: black;
 }
 
 #dicebtn:hover, #dicebtn2:hover, #dicebtn3:hover {
@@ -92,6 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    stroke: black;
 }
 
 #boss {
@@ -128,6 +129,7 @@ body {
     color: white;
     cursor: pointer;
     z-index: 2;
+    stroke: black;
 }
 
 .square-name, .square-life, .square-point {
