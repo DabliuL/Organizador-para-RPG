@@ -133,6 +133,10 @@ body {
     text-shadow: 1px 1px black;
 }
 
+.square-name {
+    text-shadow: 1px 1px black;
+}
+
 .square-name, .square-life, .square-point {
     cursor: pointer;
     margin: 10px;
@@ -172,6 +176,7 @@ body {
     border-radius: 7px;
     background-color: #505050;
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 .addboss:hover {
@@ -219,6 +224,7 @@ body {
     width: 30px;
     height: 30px;
     transition: 0.3s;
+    text-shadow: 1px 1px black;
 }
 
 /* D6 */
@@ -340,6 +346,7 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
+    text-shadow: 1px 1px black;
 }
 
 .btnok {
@@ -378,6 +385,7 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
+    text-shadow: 1px 1px black;
 }
 
 .inputpoint-container {
@@ -409,4 +417,5 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
+    text-shadow: 1px 1px black;
 }
