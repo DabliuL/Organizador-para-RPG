@@ -134,7 +134,7 @@ body {
 }
 
 .square-name {
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .square-name, .square-life, .square-point {
