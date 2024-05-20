@@ -26,7 +26,7 @@ function addSquare() {
 
 function addBoss() {
     var newBoss = $('<div class="square">' +
-                        '<img id="boss" src="img/huntress.jpg">' +
+                        '<img id="boss" src="img/charmander.jpeg">' +
                         '<div class="btn-container">' +
                             '<div class="btn move-left" onclick="moveSquare(this)">←</div>' +
                             '<div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>' +
@@ -34,7 +34,7 @@ function addBoss() {
 
                         '</div>' +
                         '<div class="square-name" onclick="editSquare(this)">A Caçadora</div>' +
-                        '<div class="square-life" onclick="editLife(this)">?</div>' +
+                        '<div class="square-life" onclick="editLife(this)">45</div>' +
                         '<div class="square-point" onclick="editPoint(this)">?</div>' +
                     '</div>');
     $('.row').append(newBoss);
