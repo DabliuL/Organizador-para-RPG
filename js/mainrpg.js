@@ -26,7 +26,7 @@ function addSquare() {
 
 function addBoss() {
     var newBoss = $('<div class="square">' +
-                        '<img id="avatar" src="img/huntress.jpeg">' +
+                        '<img id="avatar" src="img/huntress.jpg">' +
                         '<div class="btn-container">' +
                             '<div class="btn move-left" onclick="moveSquare(this)">←</div>' +
                             '<div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>' +

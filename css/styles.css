@@ -185,16 +185,17 @@ body {
     text-shadow: 1px 1px black;
 }
 
-.addboss:hover {
+.addmob:hover {
     background-color: #5f5f5f;
     transition: 0.5s;
 }
 
-.addboss {
+.addmob {
     padding: 4px 12px;
     border-radius: 7px;
     background-color: #505050;
     color: white;
+    text-shadow: 1px 1px black;
 }
 
 .addsquare:hover {
