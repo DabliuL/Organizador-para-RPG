@@ -26,6 +26,22 @@ function addSquare() {
 
 function addBoss() {
     var newBoss = $('<div class="square">' +
+                        '<img id="avatar" src="img/huntress.jpeg">' +
+                        '<div class="btn-container">' +
+                            '<div class="btn move-left" onclick="moveSquare(this)">←</div>' +
+                            '<div class="btn remove-square" id="remove" onclick="removeSquare(this)">Remove</div>' +
+                            '<div class="btn move-right" onclick="moveSquare(this)">→</div>' +
+
+                        '</div>' +
+                        '<div class="square-name" onclick="editSquare(this)">Boss</div>' +
+                        '<div class="square-life" onclick="editLife(this)">?</div>' +
+                        '<div class="square-point" onclick="editPoint(this)">?</div>' +
+                    '</div>');
+    $('.row').append(newBoss);
+}
+
+function addpet() {
+    var newBoss = $('<div class="square">' +
                         '<img id="avatar" src="img/charmander.jpeg">' +
                         '<div class="btn-container">' +
                             '<div class="btn move-left" onclick="moveSquare(this)">←</div>' +
