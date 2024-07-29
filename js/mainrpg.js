@@ -90,6 +90,10 @@ function editSquare2() {
     localstorage.setItem('NomePersonagem', newName)
 }
 
+var newName = localStorage.getItem('NomePersonagem')
+    if (newName !== '') {
+        selectn.textContent = newName;
+    }
 
 function editLife(lifeElement) {
     selectn = lifeElement
@@ -105,7 +109,7 @@ function editLife2() {
     var lf = window.document.getElementById('life')
     var replace = lf.value;
     var replace2 = replace.replace(/[a-z]/g, "")
-    var newLif = replace2.replace(/[A-Z]/g, "")
+    var newLife = replace2.replace(/[A-Z]/g, "")
     if (newLife !== '') {
         selectn.textContent = newLife;
     }
