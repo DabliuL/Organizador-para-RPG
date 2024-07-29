@@ -87,7 +87,7 @@ function editSquare2() {
     nm.value=''
     fundo.style.top = '-90%'
     fundo.style.opacity = '0%'
-    localStorage.setItem('NomePersonagem', newName)
+    localstorage.setItem('NomePersonagem', newName)
 }
 
 
@@ -105,7 +105,7 @@ function editLife2() {
     var lf = window.document.getElementById('life')
     var replace = lf.value;
     var replace2 = replace.replace(/[a-z]/g, "")
-    var newLife = replace2.replace(/[A-Z]/g, "")
+    var newLif = replace2.replace(/[A-Z]/g, "")
     if (newLife !== '') {
         selectn.textContent = newLife;
     }
