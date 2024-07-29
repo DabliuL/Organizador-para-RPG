@@ -90,8 +90,9 @@ function editSquare2() {
     localStorage.setItem('NomePersonagem', newName)
 }
 
+//atualizar nomes
 var newName = localStorage.getItem('NomePersonagem')
-    selectn = window.document.getElementById('remove')
+    selectn = window.document.getElementById('um')
     if (newName !== '') {
         selectn.textContent = newName;
     }
