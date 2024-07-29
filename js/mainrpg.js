@@ -91,11 +91,11 @@ function editSquare2() {
 }
 
 //atualizar nomes
-var newName = localStorage.getItem('NomePersonagem')
-    selectn = window.document.getElementById('um')
-    if (newName !== '') {
-        selectn.textContent = newName;
-    }
+//var newName = localStorage.getItem('NomePersonagem')
+    //selectn = window.document.getElementById('um')
+    //if (newName !== '') {
+   //     selectn.textContent = newName;
+    //}
 
 function editLife(lifeElement) {
     selectn = lifeElement
