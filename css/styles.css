@@ -140,7 +140,7 @@ body {
     margin: 10px;
     transition: 0.5s;
     border-radius: 7px;
-    font-size: 130%;
+    font-size: 150%;
     z-index: 2;
 }
 
@@ -151,7 +151,7 @@ body {
     margin: 6px;
     transition: 0.5s;
     border-radius: 6px;
-    font-size: 80%;
+    font-size: 100%;
     z-index: 2;
 }
 
