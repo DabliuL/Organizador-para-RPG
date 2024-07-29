@@ -144,7 +144,8 @@ body {
 }
 
 .square-class {
-    text-shadow: 2px 2px black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
     cursor: pointer;
     margin: 6px;
     transition: 0.5s;
@@ -164,6 +165,10 @@ body {
 }
 
 .square-name:hover {
+    background-color: #5f5f5f;
+}
+
+.square-class:hover {
     background-color: #5f5f5f;
 }
 
