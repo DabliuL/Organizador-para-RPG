@@ -12,6 +12,7 @@ body {
 }
 
 #fundobaixo {
+    position: absolute;
     z-index: 5;
     max-width: 1200px;
 }
