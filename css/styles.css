@@ -11,14 +11,6 @@ body {
     outline: none;
 }
 
-#fundobaixo {
-    width: 1200px;
-    z-index: 1;
-    position: absolute;
-    align-items: center;
-    left: 100px;
-}
-
 /*Barra de scroll do mouse*/
 ::-webkit-scrollbar {
     width: 10px;
