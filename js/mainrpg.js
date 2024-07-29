@@ -87,7 +87,7 @@ function editSquare2() {
     nm.value=''
     fundo.style.top = '-90%'
     fundo.style.opacity = '0%'
-    localstorage.setItem('NomePersonagem', newName)
+    localStorage.setItem('NomePersonagem', newName)
 }
 
 var newName = localStorage.getItem('NomePersonagem')
