@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
 body {
-    max-width: 1200px;
+    
     margin: 0 auto;
     background-color: rgb(41, 41, 41);
     padding: 20px;
@@ -9,6 +9,11 @@ body {
     overflow-x: hidden;
     user-select: none;
     outline: none;
+}
+
+#fundobaixo {
+    z-index: 5;
+    max-width: 1200px;
 }
 
 /*Barra de scroll do mouse*/
