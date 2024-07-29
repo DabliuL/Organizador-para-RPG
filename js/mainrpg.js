@@ -91,6 +91,7 @@ function editSquare2() {
 }
 
 var newName = localStorage.getItem('NomePersonagem')
+    selectn = window.document.getElementById('remove')
     if (newName !== '') {
         selectn.textContent = newName;
     }
