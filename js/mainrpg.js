@@ -74,7 +74,6 @@ function editSquare(nameElement) {
     fundo.style.opacity = '40%'
 }
 
-localstorage.setItem('NomePersonagem', selectn)
 function editSquare2() {
     var nm = window.document.getElementById('name')
     var newName = nm.value;
