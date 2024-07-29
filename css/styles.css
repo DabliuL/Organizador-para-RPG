@@ -12,9 +12,10 @@ body {
 }
 
 #fundobaixo {
-    width: 2400px;
+    width: 1366px;
     z-index: 1;
     position: absolute;
+    align-items: center;
 }
 
 /*Barra de scroll do mouse*/
