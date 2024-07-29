@@ -74,8 +74,6 @@ function editSquare(nameElement) {
     fundo.style.opacity = '40%'
 }
 
-var nm = 0;
-var newName = 0;
 function editSquare2() {
     var nm = window.document.getElementById('name')
     var newName = nm.value;
@@ -89,10 +87,7 @@ function editSquare2() {
     nm.value=''
     fundo.style.top = '-90%'
     fundo.style.opacity = '0%'
-    localStorage.setItem(nm);
 }
-localStorage.getItem(nm)
-var newName = nm.value;
 
 
 function editLife(lifeElement) {
