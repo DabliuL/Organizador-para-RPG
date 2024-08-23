@@ -159,11 +159,12 @@ body {
 .square-life, .square-point {
     cursor: pointer;
     margin: 10px;
+    border-color: white;
     transition: 0.5s;
     border-radius: 2px;
     font-size: 150%;
     z-index: 2;
-    text-shadow: 1px 1px white;
+    text-shadow: 0px 0px black;
 }
 
 .square-name:hover {
