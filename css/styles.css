@@ -160,7 +160,7 @@ body {
     cursor: pointer;
     margin: 10px;
     transition: 0.5s;
-    border: 10px solid white;
+    border: 2px solid white;
     border-radius: 2px;
     font-size: 150%;
     z-index: 2;
