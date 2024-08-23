@@ -182,12 +182,12 @@ body {
 }
 
 .square-point {
-    background-color: #cac036;
+    background-color: #d4ca39;
     z-index: 2;
 }
 
 .square-point:hover {
-    background-color: #b3ae68;
+    background-color: #b9b466;
 }
 
 .addsquare {
