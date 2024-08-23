@@ -165,7 +165,7 @@ body {
     border-radius: 2px;
     font-size: 140%;
     z-index: 2;
-    text-shadow: 0px 0px black;
+    text-shadow: 0.25px 0.25px black;
 }
 
 .square-name:hover, .square-class:hover {
