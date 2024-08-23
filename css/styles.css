@@ -159,8 +159,8 @@ body {
 .square-life, .square-point {
     cursor: pointer;
     margin: 10px;
-    border-color: white;
     transition: 0.5s;
+    border: 10px solid white;
     border-radius: 2px;
     font-size: 150%;
     z-index: 2;
