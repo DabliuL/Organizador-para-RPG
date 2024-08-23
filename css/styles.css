@@ -161,7 +161,7 @@ body {
     color: white;
     margin: 10px;
     transition: 0.5s;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 2px;
     font-size: 150%;
     z-index: 2;
