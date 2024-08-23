@@ -168,11 +168,7 @@ body {
     text-shadow: 0px 0px black;
 }
 
-.square-name:hover {
-    background-color: #5f5f5f;
-}
-
-.square-class:hover {
+.square-name:hover, .square-class:hover {
     background-color: #5f5f5f;
 }
 
