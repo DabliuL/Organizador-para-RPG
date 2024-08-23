@@ -368,7 +368,8 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
-    text-shadow: 1px 1px black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .btnok {
@@ -407,7 +408,8 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
-    text-shadow: 1px 1px black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .inputpoint-container {
@@ -439,5 +441,6 @@ body {
     margin: 10px;
     border-radius: 7px;
     z-index: 4;
-    text-shadow: 1px 1px black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
 }
