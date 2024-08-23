@@ -165,7 +165,7 @@ body {
     border-radius: 2px;
     font-size: 140%;
     z-index: 2;
-    text-shadow: 0.25px 0.25px black;
+    text-shadow: 0.5px 0.5px black;
 }
 
 .square-name:hover, .square-class:hover {
@@ -182,12 +182,12 @@ body {
 }
 
 .square-point {
-    background-color: #d4ca39;
+    background-color: #dfd335;
     z-index: 2;
 }
 
 .square-point:hover {
-    background-color: #b9b466;
+    background-color: #d1cb75;
 }
 
 .addsquare {
