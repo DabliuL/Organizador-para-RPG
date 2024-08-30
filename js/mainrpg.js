@@ -152,7 +152,7 @@ function editPoint2() {
 }
 
 //rolagens de dados
-var Resultado = window.document.getElementById('dice-result')
+/*var Resultado = window.document.getElementById('dice-result')
     Resultado.style.left = '51.4%'
 
 function rollDice() {
@@ -224,4 +224,4 @@ function closeMenu() {
     Dicebtn.style.opacity = '0%'
     var Dicebtn = window.document.getElementById('dicebtn3')
     Dicebtn.style.opacity = '0%'
-}
+}*/
