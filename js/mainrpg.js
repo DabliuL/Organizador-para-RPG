@@ -1,3 +1,4 @@
+//Script de movimentação dos quadrados
 function moveSquare(button) {
     var square = $(button).closest('.square');
     var currentIndex = square.index();
@@ -9,6 +10,7 @@ function moveSquare(button) {
     }
 }
 
+//Função do quadrado que vai ser adicionado
 function addSquare() {
     var newSquare = $('<div class="square">' +
                         '<div class="btn-container">' +
@@ -24,6 +26,7 @@ function addSquare() {
     $('.row').append(newSquare);
 }
 
+//Função do boss que vai ser adicionado
 function addBoss() {
     var newBoss = $('<div class="square">' +
                         '<img id="avatar" src="img/huntress.jpg">' +
@@ -40,6 +43,7 @@ function addBoss() {
     $('.row').append(newBoss);
 }
 
+//Função para adicionar o quadrado do Charmander
 function addpet() {
     var newBoss = $('<div class="square">' +
                         '<img id="avatar" src="img/charmander.jpeg">' +
@@ -56,14 +60,17 @@ function addpet() {
     $('.row').append(newBoss);
 }
 
+//função para remover os quadrados
 function removeSquare(button) {
     var square = $(button).closest('.square');
     square.remove();
 }
 
-//Inputs
+//Área das funções que mechem com os imputs
 var fundo = window.document.getElementById('fundo')
 var selectn = '0'
+
+//Funções do input de nome
 function editSquare(nameElement) {
     selectn = nameElement
     var callname = window.document.getElementById('cname')
@@ -97,6 +104,7 @@ function editSquare2() {
    //     selectn.textContent = newName;
     //}
 
+//Função dos inputs de Vida
 function editLife(lifeElement) {
     selectn = lifeElement
     var calllife = window.document.getElementById('clife')
@@ -124,6 +132,7 @@ function editLife2() {
     fundo.style.opacity = '0%'
 }
 
+//Função dos inputs de Energia/Mana/etc
 function editPoint(pointElement) {
     selectn = pointElement
     var callpoint = window.document.getElementById('cpoint')
