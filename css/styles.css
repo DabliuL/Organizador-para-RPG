@@ -108,7 +108,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-    font-size: 125%;
+    font-size: 112.5%;
 }
 
 .move-left, .move-right {
