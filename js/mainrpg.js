@@ -81,7 +81,7 @@ function editSquare(nameElement) {
     fundo.style.opacity = '40%'
 }
 
-function editSquare2() {
+function editSquareResult() {
     var nm = window.document.getElementById('name')
     var newName = nm.value;
     if (newName !== '') {
@@ -115,7 +115,7 @@ function editLife(lifeElement) {
     fundo.style.opacity = '40%'
 }
 
-function editLife2() {
+function editLifeResult() {
     var lf = window.document.getElementById('life')
     var replace = lf.value;
     var replace2 = replace.replace(/[a-z]/g, "")
@@ -143,7 +143,7 @@ function editPoint(pointElement) {
     fundo.style.opacity = '40%'
 }
 
-function editPoint2() {
+function editPointResult() {
     var pt = window.document.getElementById('point')
     var replace = pt.value;
     var replace2 = replace.replace(/[a-z]/g, "")
