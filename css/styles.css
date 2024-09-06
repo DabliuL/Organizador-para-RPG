@@ -360,6 +360,7 @@ body {
     transform: translate(-50%, -50%);
     transition: 0.7s;
     z-index: 3;
+    box-shadow: 10px 10px 10px black;
 }
 
 .input-name {
@@ -380,7 +381,7 @@ body {
     color: white;
     background-color: green;
     z-index: 4;
-    padding: 2.5px;
+    padding: 5px;
 }
 
 .inputlife-container {
