@@ -381,6 +381,9 @@ body {
     color: white;
     background-color: green;
     z-index: 4;
+}
+
+#textok {
     padding: 5px;
 }
 
