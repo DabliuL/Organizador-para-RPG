@@ -108,12 +108,12 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    width: 150%;
 }
 
 .move-left, .move-right {
     transition: 0.5s;
     border-radius: 57px;
-    width: 120%;
     z-index: 2;
 }
 
