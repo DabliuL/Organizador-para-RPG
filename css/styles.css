@@ -383,6 +383,10 @@ body {
     z-index: 4;
 }
 
+.btnok:hover {
+    background-color: rgb(18, 173, 18);
+}
+
 #textok {
     padding: 5px;
 }
