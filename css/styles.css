@@ -380,6 +380,7 @@ body {
     color: white;
     background-color: green;
     z-index: 4;
+    padding: 2.5px;
 }
 
 .inputlife-container {
