@@ -170,6 +170,7 @@ body {
     text-shadow: 0px 0px black;
     -webkit-text-stroke-width: 0.6px;
     -webkit-text-stroke-color: black;
+    -webkit-font-smoothing: antialiased;
 }
 
 .square-name:hover, .square-class:hover {
