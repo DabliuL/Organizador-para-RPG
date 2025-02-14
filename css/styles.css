@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     user-select: none;
     outline: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*Barra de scroll do mouse*/
